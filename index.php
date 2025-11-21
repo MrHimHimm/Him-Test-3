@@ -1,9 +1,7 @@
 <?php
 // Halaman index PHP sederhana
-// Bisa jadi template awal proyek web kamu
 
-// Contoh variabel PHP
-a $nama = "Him";
+$nama = "Him";
 $jam = date("H");
 
 // Tentukan sapaan berdasarkan waktu
@@ -15,7 +13,6 @@ if ($jam < 12) {
     $sapaan = "Selamat malam";
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -57,4 +54,3 @@ if ($jam < 12) {
     </div>
 </body>
 </html>
-        
