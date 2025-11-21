@@ -1,10 +1,7 @@
 <?php
-// Halaman index PHP sederhana
-
 $nama = "Him";
 $jam = date("H");
 
-// Tentukan sapaan berdasarkan waktu
 if ($jam < 12) {
     $sapaan = "Selamat pagi";
 } elseif ($jam < 18) {
@@ -19,32 +16,9 @@ if ($jam < 12) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index PHP Sederhana</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f3f5ff;
-            padding: 30px;
-            color: #222;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            max-width: 400px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            margin: auto;
-            text-align: center;
-        }
-        .btn {
-            background: #6C5CE7;
-            color: white;
-            border: none;
-            padding: 10px 18px;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 12px;
-        }
-    </style>
+
+    <!-- Panggil file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
